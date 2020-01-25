@@ -30,6 +30,11 @@ namespace Vidly.Controllers
             return View(customers);
         }
 
+        public ActionResult New()
+        {
+            return View();
+        }
+
         public ActionResult Details(int id)
         {
 
