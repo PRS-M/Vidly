@@ -90,9 +90,9 @@
                     method: "post",
                     data: vm
                 }).done(function () {
-                    console.log("Done");
+                    toastr.success("Rental successfully recorded.");
                 }).fail(function () {
-
+                    toastr.error("Something unexpected happend.");
                 });
             });
         });
