@@ -5,7 +5,7 @@
 
 <h2>New Rental Form</h2>
 
-<form>
+<form id="newRental">
     <div class="form-group">
         <label>Customer</label>
         <div class="tt-container">
@@ -38,7 +38,7 @@
             };
 
             var customers = new Bloodhound({
-                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
                 queryTokenizer: Bloodhound.tokenizers.whitespace,
                 remote: {
                     url: '/api/customers?query=%QUERY',
@@ -58,7 +58,7 @@
             });
 
             var movies = new Bloodhound({
-                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
                 queryTokenizer: Bloodhound.tokenizers.whitespace,
                 remote: {
                     url: '/api/movies?query=%QUERY',
@@ -80,6 +80,20 @@
                 $("#movies").typeahead("val", "");
 
                 vm.movieIds.push(movie.id);
+            });
+
+            $("#newRental").submit(function (e) {
+                e.preventDefault();
+
+                $.ajax({
+                    url: "/api/newRentals",
+                    method: "post",
+                    data: vm
+                }).done(function () {
+                    console.log("Done");
+                }).fail(function () {
+
+                });
             });
         });
     </script>
