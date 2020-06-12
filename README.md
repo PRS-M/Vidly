@@ -10,7 +10,7 @@ Movie Rental Store, ASP.NET MVC 5 Course
 A movie rental store created using ASP.NET MVC.  
 Well, looking through the eyes of a recruiter or a senior dev,  
 probably just another useless CRUD app that does not even implement  
-Dijkstra'a algorithm or N-Tier Architecture. What is even worse - it is based on some online courses.  
+Dijkstra's algorithm or N-Tier Architecture. What is even worse - it is based on some online courses.  
 
 On the other hand, why would it implement such things? It is just a simple rental store  
 that was fun to create and for example learn about N + 1 in practice.  
