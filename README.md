@@ -16,7 +16,7 @@ On the other hand, why would it implement such things? It is just a simple renta
 that was fun to create and for example learn about N + 1 in practice.  
 For me? A fun [lesson learned](#lessons-learned) with some proper guidance.  
 
-If Mosh Hamedani, the author of the course, had not elaborated enough I have books  
+If Mosh Hamedani, the author of the course, had not elaborated enough - I have books  
 by John Sharp, Dino Esposito and Jon Skeet in which I could look up the rest.  
 If that was not enough, I could turn to Uncle Google and Aunt Stack Overflow a few times.
 
