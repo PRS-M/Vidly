@@ -8,11 +8,13 @@ Movie Rental Store, ASP.NET MVC 5 Course
 
 ## General Info
 A movie rental store created using ASP.NET MVC.  
-Well, looking through the eyes of a recruiter or a senior dev,  
+Well, looking through the eyes of a recruiter or a senior dev,
 probably just another useless CRUD app that does not even implement  
 Dijkstra'a algorithm or N-Tier Architecture. What is even worse - it is based on some online courses.  
-On the other hand, why would it implement such things? It is just a simple rental store that was fun to create and for example  
-learn about N + 1 in practice. For me? A fun [lesson learned](#lessons-learned) with some proper guidance.  
+On the other hand, why would it implement such things? It is just a simple rental store  
+that was fun to create and for example learn about N + 1 in practice.  
+For me?
+A fun [lesson learned](#lessons-learned) with some proper guidance.  
 If Mosh Hamedani, the author of the course, had not elaborated enough I have books by John Sharp, Dino Esposito and Jon Skeet
 in which I could look up the rest. If that was not enough, I turned a few times to Uncle Google and Aunt Stack Overflow.
 
